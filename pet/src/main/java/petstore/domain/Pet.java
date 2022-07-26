@@ -132,5 +132,7 @@ public class Pet {
         //test!!!123123
     }
 
-    public void test8() {}
+    public void test8() {
+        //asdasdasd
+    }
 }
