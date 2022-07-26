@@ -80,8 +80,6 @@ public class Pet {
 
     public void comb() {}
 
-    public void test1() {}
-
     public void test2() {}
 
     public void test3() {}
@@ -91,4 +89,6 @@ public class Pet {
     public void test6() {}
 
     public void test7() {}
+
+    public void test8() {}
 }

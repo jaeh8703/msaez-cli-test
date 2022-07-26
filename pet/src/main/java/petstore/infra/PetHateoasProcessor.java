@@ -29,11 +29,6 @@ public class PetHateoasProcessor
         );
         model.add(
             Link
-                .of(model.getRequiredLink("self").getHref() + "/test1")
-                .withRel("test1")
-        );
-        model.add(
-            Link
                 .of(model.getRequiredLink("self").getHref() + "/test2")
                 .withRel("test2")
         );
@@ -56,6 +51,11 @@ public class PetHateoasProcessor
             Link
                 .of(model.getRequiredLink("self").getHref() + "/test7")
                 .withRel("test7")
+        );
+        model.add(
+            Link
+                .of(model.getRequiredLink("self").getHref() + "/test8")
+                .withRel("test8")
         );
 
         return model;
