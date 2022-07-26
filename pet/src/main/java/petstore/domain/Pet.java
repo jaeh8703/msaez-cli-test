@@ -135,4 +135,6 @@ public class Pet {
     public void test8() {
         //asdasdasd
     }
+    
+    public void test9() {}
 }
