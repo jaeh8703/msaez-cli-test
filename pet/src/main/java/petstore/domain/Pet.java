@@ -82,7 +82,11 @@ public class Pet {
 
     public void groom() {}
 
-    public void comb() {}
+    public void comb() {
+        //test!!
+    }
 
-    public void test1() {}
+    public void test1() {
+        //test2!!
+    }
 }
