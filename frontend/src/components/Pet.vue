@@ -118,14 +118,6 @@
                     v-if="!editMode"
                     color="deep-purple lighten-2"
                     text
-                    @click="test4"
-            >
-                Test4
-            </v-btn>
-            <v-btn
-                    v-if="!editMode"
-                    color="deep-purple lighten-2"
-                    text
                     @click="test5"
             >
                 Test5
@@ -357,21 +349,6 @@
                 try {
                     if(!this.offline) {
                         var temp = await axios.put(axios.fixUrl(this.value._links.test3.href))
-                        for(var k in temp.data) {
-                            this.value[k]=temp.data[k];
-                        }
-                    }
-
-                    this.editMode = false;
-                } catch(e) {
-                    this.snackbar.status = true
-                    this.snackbar.text = e
-                }
-            },
-            async test4() {
-                try {
-                    if(!this.offline) {
-                        var temp = await axios.put(axios.fixUrl(this.value._links.test4.href))
                         for(var k in temp.data) {
                             this.value[k]=temp.data[k];
                         }
