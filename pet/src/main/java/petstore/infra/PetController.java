@@ -80,5 +80,47 @@ public class PetController {
         petRepository.save(pet);
         return pet;
     }
+
+    @RequestMapping(
+        value = "pets/{id}/test1",
+        method = RequestMethod.PUT,
+        produces = "application/json;charset=UTF-8"
+    )
+    public Pet test1(
+        @PathVariable(value = "id") Long id,
+        HttpServletRequest request,
+        HttpServletResponse response
+    ) throws Exception {
+        System.out.println("##### /pet/test1  called #####");
+        Optional<Pet> optionalPet = petRepository.findById(id);
+
+        optionalPet.orElseThrow(() -> new Exception("No Entity Found"));
+        Pet pet = optionalPet.get();
+        pet.test1();
+
+        petRepository.save(pet);
+        return pet;
+    }
+
+    @RequestMapping(
+        value = "pets/{id}/test2",
+        method = RequestMethod.PUT,
+        produces = "application/json;charset=UTF-8"
+    )
+    public Pet test2(
+        @PathVariable(value = "id") Long id,
+        HttpServletRequest request,
+        HttpServletResponse response
+    ) throws Exception {
+        System.out.println("##### /pet/test2  called #####");
+        Optional<Pet> optionalPet = petRepository.findById(id);
+
+        optionalPet.orElseThrow(() -> new Exception("No Entity Found"));
+        Pet pet = optionalPet.get();
+        pet.test2();
+
+        petRepository.save(pet);
+        return pet;
+    }
     // keep
 }
