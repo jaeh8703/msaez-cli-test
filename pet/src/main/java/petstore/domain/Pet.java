@@ -149,4 +149,10 @@ public class Pet {
     public void test5() {
         //test
     }
+
+    public void test6() {}
+
+    public void test7() {
+        //test!!!
+    }
 }
