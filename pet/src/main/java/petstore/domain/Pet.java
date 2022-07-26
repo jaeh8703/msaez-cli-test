@@ -116,14 +116,18 @@ public class Pet {
     }
 
     public void test7() {
-        //test7
+        //test7 !!!!
     }
 
     public void test8() {
         //test8
     }
 
-    public void test10() {}
+    public void test10() {
+        //test 10
+    }
 
-    public void test11() {}
+    public void test11() {
+        //test 11 
+    }
 }
