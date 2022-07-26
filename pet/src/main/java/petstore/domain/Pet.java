@@ -83,4 +83,6 @@ public class Pet {
     public void groom() {}
 
     public void comb() {}
+
+    public void test1() {}
 }
