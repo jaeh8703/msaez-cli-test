@@ -92,5 +92,5 @@ public class Pet {
 
     public void test8() {}
 
-    public void test9() {}
+    public void test10() {}
 }

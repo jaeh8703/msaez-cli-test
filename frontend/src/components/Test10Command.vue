@@ -2,7 +2,7 @@
 
     <v-card outlined>
         <v-card-title>
-            Test9
+            Test10
         </v-card-title>
 
         <v-card-text>
@@ -13,9 +13,9 @@
             <v-btn
                     color="deep-purple lighten-2"
                     text
-                    @click="test9"
+                    @click="test10"
             >
-                Test9
+                Test10
             </v-btn>
             
             <v-btn
@@ -33,7 +33,7 @@
 <script>
    
     export default {
-        name: 'Test9Command',
+        name: 'Test10Command',
         components:{},
         props: {},
         data: () => ({
@@ -45,8 +45,8 @@
         watch: {
         },
         methods: {
-            test9() {
-                this.$emit('test9', this.value);
+            test10() {
+                this.$emit('test10', this.value);
             },
             close() {
                 this.$emit('closeDialog');
