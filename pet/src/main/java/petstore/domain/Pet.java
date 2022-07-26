@@ -75,7 +75,7 @@ public class Pet {
         Fed fed = new Fed(this);
         fed.publishAfterCommit();
     }
-    //test !! 
+    //test !!  ! ! ! ! !!
     public void groom() {
         //test !! ! ! ! 
     }
@@ -88,7 +88,11 @@ public class Pet {
         //test
     }
 
-    public void test2() {}
+    public void test2() {
+        // test ! ! ! 
+    }
 
-    public void test3() {}
+    public void test3() {
+        //test ! ! !
+    }
 }
