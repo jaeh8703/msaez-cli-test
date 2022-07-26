@@ -75,56 +75,18 @@ public class Pet {
         Fed fed = new Fed(this);
         fed.publishAfterCommit();
     }
-    public void groom() {
-        //test
-        //test124124124124
-        //test
-        //test
-        //test
-        //test
-        //test
-        //test
-        //test
-        //test
-        //test
-        //test
-        //test21412421
-        //test
-        //test
-        //test4124
-        //test
-        //test
-    }
+
+    public void groom() {}
 
     public void comb() {}
 
-    public void test2() {
-        //test
-        //test
-        //test
-        //test
-        //test
-        //test!!!!1123213
-        //test
-        //test
-        //test124214214
-    }
+    public void test2() {}
 
-    public void test3() {
-        //test
-        //test
-        //test
-        //test!!!11234213214214
-        //test
-        //test
-        //test
-        //test
-        //test
-    }
+    public void test3() {}
 
     public void test5() {}
 
-    public void test6() {
-        
-    }
+    public void test6() {}
+
+    public void test7() {}
 }
