@@ -122,19 +122,5 @@ public class Pet {
         //test
     }
 
-    public void test5() {
-        //test
-    }
-
-    public void test6() {}
-
-    public void test7() {
-        //test!!!123123
-    }
-
-    public void test8() {
-        //asdasdasd
-    }
-    
-    public void test9() {}
+    public void test5() {}
 }
