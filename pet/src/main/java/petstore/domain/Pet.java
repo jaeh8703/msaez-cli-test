@@ -68,10 +68,6 @@ public class Pet {
         //
     }
 
-    public void test2() {
-        //
-    }
-
     public void feed() {
         Overweighted overweighted = new Overweighted(this);
         overweighted.publishAfterCommit();
@@ -85,4 +81,6 @@ public class Pet {
     public void comb() {}
 
     public void test1() {}
+
+    public void test2() {}
 }
