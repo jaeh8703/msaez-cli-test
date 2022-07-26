@@ -91,4 +91,6 @@ public class Pet {
     public void test7() {}
 
     public void test8() {}
+
+    public void test11() {}
 }
