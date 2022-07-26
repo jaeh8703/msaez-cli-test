@@ -85,4 +85,6 @@ public class Pet {
     public void test3() {}
 
     public void test5() {}
+
+    public void test6() {}
 }
