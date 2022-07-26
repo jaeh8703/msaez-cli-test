@@ -99,41 +99,28 @@ public class Pet {
     public void comb() {}
 
     public void test2() {
-        //test
-        //test
-        //test
-        //test
-        //test
-        //test!!!!1123213
-        //test
-        //test
-        //test124214214
+        //logic
     }
 
     public void test3() {
         //test
         //test
         //test
-        //test!!!11234213214214
-        //test
-        //test
-        //test
-        //test
-        //test ! !! ! ! 
+        // test3
     }
 
     public void test5() {}
 
     public void test6() {
-        //test3
+        //test6
     }
 
     public void test7() {
-        //test2
+        //test7
     }
 
     public void test8() {
-        //test1
+        //test8
     }
 
     public void test10() {}
