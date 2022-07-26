@@ -98,18 +98,6 @@ public class Pet {
 
     public void comb() {}
 
-    public void test1() {
-        //test
-        //test
-        //test
-        //test12312312
-        //test
-        //test
-        //test
-        //test
-        //test
-    }
-
     public void test2() {
         //test
         //test
@@ -143,4 +131,6 @@ public class Pet {
     public void test7() {
         //test!!!123123
     }
+
+    public void test8() {}
 }
