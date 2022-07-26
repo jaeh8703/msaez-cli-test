@@ -90,94 +90,6 @@
             >
                 Comb
             </v-btn>
-            <v-btn
-                    v-if="!editMode"
-                    color="deep-purple lighten-2"
-                    text
-                    @click="test2"
-            >
-                Test2
-            </v-btn>
-            <v-btn
-                    v-if="!editMode"
-                    color="deep-purple lighten-2"
-                    text
-                    @click="test3"
-            >
-                Test3
-            </v-btn>
-            <v-btn
-                    v-if="!editMode"
-                    color="deep-purple lighten-2"
-                    text
-                    @click="test5"
-            >
-                Test5
-            </v-btn>
-            <v-btn
-                    v-if="!editMode"
-                    color="deep-purple lighten-2"
-                    text
-                    @click="test6"
-            >
-                Test6
-            </v-btn>
-            <v-btn
-                    v-if="!editMode"
-                    color="deep-purple lighten-2"
-                    text
-                    @click="test7"
-            >
-                Test7
-            </v-btn>
-            <v-btn
-                    v-if="!editMode"
-                    color="deep-purple lighten-2"
-                    text
-                    @click="test8"
-            >
-                Test8
-            </v-btn>
-            <v-btn
-                    v-if="!editMode"
-                    color="deep-purple lighten-2"
-                    text
-                    @click="test10"
-            >
-                Test10
-            </v-btn>
-            <v-btn
-                    v-if="!editMode"
-                    color="deep-purple lighten-2"
-                    text
-                    @click="test11"
-            >
-                Test11
-            </v-btn>
-            <v-btn
-                    v-if="!editMode"
-                    color="deep-purple lighten-2"
-                    text
-                    @click="test13"
-            >
-                Test13
-            </v-btn>
-            <v-btn
-                    v-if="!editMode"
-                    color="deep-purple lighten-2"
-                    text
-                    @click="test14"
-            >
-                Test14
-            </v-btn>
-            <v-btn
-                    v-if="!editMode"
-                    color="deep-purple lighten-2"
-                    text
-                    @click="test15"
-            >
-                Test15
-            </v-btn>
         </v-card-actions>
 
         <v-snackbar
@@ -355,10 +267,10 @@
                     this.snackbar.text = e
                 }
             },
-            async test2() {
+            async () {
                 try {
                     if(!this.offline) {
-                        var temp = await axios.put(axios.fixUrl(this.value._links.test2.href))
+                        var temp = await axios.put(axios.fixUrl(this.value._links..href))
                         for(var k in temp.data) {
                             this.value[k]=temp.data[k];
                         }
@@ -370,10 +282,10 @@
                     this.snackbar.text = e
                 }
             },
-            async test3() {
+            async () {
                 try {
                     if(!this.offline) {
-                        var temp = await axios.put(axios.fixUrl(this.value._links.test3.href))
+                        var temp = await axios.put(axios.fixUrl(this.value._links..href))
                         for(var k in temp.data) {
                             this.value[k]=temp.data[k];
                         }
@@ -385,10 +297,10 @@
                     this.snackbar.text = e
                 }
             },
-            async test5() {
+            async () {
                 try {
                     if(!this.offline) {
-                        var temp = await axios.put(axios.fixUrl(this.value._links.test5.href))
+                        var temp = await axios.put(axios.fixUrl(this.value._links..href))
                         for(var k in temp.data) {
                             this.value[k]=temp.data[k];
                         }
@@ -400,10 +312,10 @@
                     this.snackbar.text = e
                 }
             },
-            async test6() {
+            async () {
                 try {
                     if(!this.offline) {
-                        var temp = await axios.put(axios.fixUrl(this.value._links.test6.href))
+                        var temp = await axios.put(axios.fixUrl(this.value._links..href))
                         for(var k in temp.data) {
                             this.value[k]=temp.data[k];
                         }
@@ -415,10 +327,10 @@
                     this.snackbar.text = e
                 }
             },
-            async test7() {
+            async () {
                 try {
                     if(!this.offline) {
-                        var temp = await axios.put(axios.fixUrl(this.value._links.test7.href))
+                        var temp = await axios.put(axios.fixUrl(this.value._links..href))
                         for(var k in temp.data) {
                             this.value[k]=temp.data[k];
                         }
@@ -430,85 +342,10 @@
                     this.snackbar.text = e
                 }
             },
-            async test8() {
+            async () {
                 try {
                     if(!this.offline) {
-                        var temp = await axios.put(axios.fixUrl(this.value._links.test8.href))
-                        for(var k in temp.data) {
-                            this.value[k]=temp.data[k];
-                        }
-                    }
-
-                    this.editMode = false;
-                } catch(e) {
-                    this.snackbar.status = true
-                    this.snackbar.text = e
-                }
-            },
-            async test10() {
-                try {
-                    if(!this.offline) {
-                        var temp = await axios.put(axios.fixUrl(this.value._links.test10.href))
-                        for(var k in temp.data) {
-                            this.value[k]=temp.data[k];
-                        }
-                    }
-
-                    this.editMode = false;
-                } catch(e) {
-                    this.snackbar.status = true
-                    this.snackbar.text = e
-                }
-            },
-            async test11() {
-                try {
-                    if(!this.offline) {
-                        var temp = await axios.put(axios.fixUrl(this.value._links.test11.href))
-                        for(var k in temp.data) {
-                            this.value[k]=temp.data[k];
-                        }
-                    }
-
-                    this.editMode = false;
-                } catch(e) {
-                    this.snackbar.status = true
-                    this.snackbar.text = e
-                }
-            },
-            async test13() {
-                try {
-                    if(!this.offline) {
-                        var temp = await axios.put(axios.fixUrl(this.value._links.test12.href))
-                        for(var k in temp.data) {
-                            this.value[k]=temp.data[k];
-                        }
-                    }
-
-                    this.editMode = false;
-                } catch(e) {
-                    this.snackbar.status = true
-                    this.snackbar.text = e
-                }
-            },
-            async test14() {
-                try {
-                    if(!this.offline) {
-                        var temp = await axios.put(axios.fixUrl(this.value._links.test14.href))
-                        for(var k in temp.data) {
-                            this.value[k]=temp.data[k];
-                        }
-                    }
-
-                    this.editMode = false;
-                } catch(e) {
-                    this.snackbar.status = true
-                    this.snackbar.text = e
-                }
-            },
-            async test15() {
-                try {
-                    if(!this.offline) {
-                        var temp = await axios.put(axios.fixUrl(this.value._links.test15.href))
+                        var temp = await axios.put(axios.fixUrl(this.value._links..href))
                         for(var k in temp.data) {
                             this.value[k]=temp.data[k];
                         }
