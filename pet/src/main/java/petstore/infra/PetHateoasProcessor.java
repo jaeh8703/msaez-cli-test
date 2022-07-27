@@ -42,6 +42,11 @@ public class PetHateoasProcessor
                 .of(model.getRequiredLink("self").getHref() + "/t1")
                 .withRel("t1")
         );
+        model.add(
+            Link
+                .of(model.getRequiredLink("self").getHref() + "/t2")
+                .withRel("t2")
+        );
 
         return model;
     }
