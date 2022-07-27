@@ -143,7 +143,10 @@ public class Pet {
     }
 
     public void test66() {
-        // test 666
+        // test 666111
     }
 
+    public void test77() {
+        // test 77
+    }
 }
