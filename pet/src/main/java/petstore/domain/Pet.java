@@ -130,5 +130,7 @@ public class Pet {
         // test
     }
 
-    public void testa2() {}
+    public void testa2() {
+        // test 2
+    }
 }
