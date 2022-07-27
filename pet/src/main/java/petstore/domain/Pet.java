@@ -52,50 +52,6 @@ public class Pet {
         return petRepository;
     }
 
-    public void feed123() {
-        //
-    }
-
-    public void feed123aaaa() {
-        //
-    }
-
-    public void combaaaaaasd123() {
-        //
-    }
-
-    public void c123() {
-        //
-    }
-
-    public void test2() {
-        //
-    }
-
-    public void test3() {
-        //
-    }
-
-    public void test5() {
-        //
-    }
-
-    public void test6() {
-        //
-    }
-
-    public void test7() {
-        //
-    }
-
-    public void test8() {
-        //
-    }
-
-    public void test9() {
-        //
-    }
-
     public void feed() {
         Overweighted overweighted = new Overweighted(this);
         overweighted.publishAfterCommit();
@@ -104,24 +60,7 @@ public class Pet {
         fed.publishAfterCommit();
     }
     public void groom() {
-        //test
-        //test124124124124
-        //test
-        //test
-        //test
-        //test
-        //test
-        //test
-        //test
-        //test
-        //test
-        //test
-        //test21412421
-        //test
-        //test
-        //test4124
-        //test
-        //test
+        // test
     }
 
     public void comb() {}
@@ -130,30 +69,5 @@ public class Pet {
         // test
     }
 
-    public void testa2() {
-        // test 2
-    }
-
-    public void test66() {
-        // test 666111!!!
-    }
-
-    public void test77() {
-        // test 77123123
-    }
-
-    public void test88() {
-        //test888881231212
-    }
-
-    public void test99() {
-        //tassdsadasdsadas!!!!
-    }
-
-    public void test101() {
-        //test ! !! 
-    }
-
-    public void test101() {}
-
+    public void testa2() {}
 }
