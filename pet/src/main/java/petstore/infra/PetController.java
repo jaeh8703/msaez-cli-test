@@ -124,69 +124,6 @@ public class PetController {
     }
 
     @RequestMapping(
-        value = "pets/{id}/testa3",
-        method = RequestMethod.PUT,
-        produces = "application/json;charset=UTF-8"
-    )
-    public Pet testa3(
-        @PathVariable(value = "id") Long id,
-        HttpServletRequest request,
-        HttpServletResponse response
-    ) throws Exception {
-        System.out.println("##### /pet/testa3  called #####");
-        Optional<Pet> optionalPet = petRepository.findById(id);
-
-        optionalPet.orElseThrow(() -> new Exception("No Entity Found"));
-        Pet pet = optionalPet.get();
-        pet.testa3();
-
-        petRepository.save(pet);
-        return pet;
-    }
-
-    @RequestMapping(
-        value = "pets/{id}/test4",
-        method = RequestMethod.PUT,
-        produces = "application/json;charset=UTF-8"
-    )
-    public Pet test4(
-        @PathVariable(value = "id") Long id,
-        HttpServletRequest request,
-        HttpServletResponse response
-    ) throws Exception {
-        System.out.println("##### /pet/test4  called #####");
-        Optional<Pet> optionalPet = petRepository.findById(id);
-
-        optionalPet.orElseThrow(() -> new Exception("No Entity Found"));
-        Pet pet = optionalPet.get();
-        pet.test4();
-
-        petRepository.save(pet);
-        return pet;
-    }
-
-    @RequestMapping(
-        value = "pets/{id}/test5",
-        method = RequestMethod.PUT,
-        produces = "application/json;charset=UTF-8"
-    )
-    public Pet test5(
-        @PathVariable(value = "id") Long id,
-        HttpServletRequest request,
-        HttpServletResponse response
-    ) throws Exception {
-        System.out.println("##### /pet/test5  called #####");
-        Optional<Pet> optionalPet = petRepository.findById(id);
-
-        optionalPet.orElseThrow(() -> new Exception("No Entity Found"));
-        Pet pet = optionalPet.get();
-        pet.test5();
-
-        petRepository.save(pet);
-        return pet;
-    }
-
-    @RequestMapping(
         value = "pets/{id}/test66",
         method = RequestMethod.PUT,
         produces = "application/json;charset=UTF-8"
@@ -244,6 +181,27 @@ public class PetController {
         optionalPet.orElseThrow(() -> new Exception("No Entity Found"));
         Pet pet = optionalPet.get();
         pet.test88();
+
+        petRepository.save(pet);
+        return pet;
+    }
+
+    @RequestMapping(
+        value = "pets/{id}/test99",
+        method = RequestMethod.PUT,
+        produces = "application/json;charset=UTF-8"
+    )
+    public Pet test99(
+        @PathVariable(value = "id") Long id,
+        HttpServletRequest request,
+        HttpServletResponse response
+    ) throws Exception {
+        System.out.println("##### /pet/test99  called #####");
+        Optional<Pet> optionalPet = petRepository.findById(id);
+
+        optionalPet.orElseThrow(() -> new Exception("No Entity Found"));
+        Pet pet = optionalPet.get();
+        pet.test99();
 
         petRepository.save(pet);
         return pet;

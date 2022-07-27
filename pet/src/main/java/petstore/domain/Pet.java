@@ -76,6 +76,10 @@ public class Pet {
         //
     }
 
+    public void test5() {
+        //
+    }
+
     public void test6() {
         //
     }
@@ -108,15 +112,11 @@ public class Pet {
 
     public void testa2() {}
 
-    public void testa3() {}
-
-    public void test4() {}
-
-    public void test5() {}
-
     public void test66() {}
 
     public void test77() {}
 
     public void test88() {}
+
+    public void test99() {}
 }
