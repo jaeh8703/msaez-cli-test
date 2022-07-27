@@ -142,5 +142,8 @@ public class Pet {
         //test 55555
     }
 
+    public void test66() {
+        // test 666
+    }
 
 }
