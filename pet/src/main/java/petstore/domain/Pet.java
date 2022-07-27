@@ -126,5 +126,7 @@ public class Pet {
 
     public void comb() {}
 
-    public void testa1() {}
+    public void testa1() {
+        // test
+    }
 }
