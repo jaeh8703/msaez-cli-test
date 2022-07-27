@@ -122,6 +122,14 @@
             >
                 Test4
             </v-btn>
+            <v-btn
+                    v-if="!editMode"
+                    color="deep-purple lighten-2"
+                    text
+                    @click="test5"
+            >
+                Test5
+            </v-btn>
         </v-card-actions>
 
         <v-snackbar
@@ -359,10 +367,10 @@
                     this.snackbar.text = e
                 }
             },
-            async () {
+            async test5() {
                 try {
                     if(!this.offline) {
-                        var temp = await axios.put(axios.fixUrl(this.value._links..href))
+                        var temp = await axios.put(axios.fixUrl(this.value._links.test5.href))
                         for(var k in temp.data) {
                             this.value[k]=temp.data[k];
                         }
