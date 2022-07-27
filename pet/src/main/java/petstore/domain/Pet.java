@@ -111,16 +111,4 @@ public class Pet {
     public void testa1() {}
 
     public void testa2() {}
-
-    public void test66() {}
-
-    public void test77() {}
-
-    public void test88() {}
-
-    public void test99() {}
-
-    public void test101() {}
-
-    public void test102() {}
 }
