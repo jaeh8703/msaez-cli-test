@@ -111,4 +111,6 @@ public class Pet {
     public void testa1() {}
 
     public void testa2() {}
+
+    public void t1() {}
 }
