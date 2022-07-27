@@ -79,48 +79,7 @@ public class Pet {
 
     public void t2() {
         // test
-        // test
-        // test
-        // test
-        // test
-        // test
-        // test
-        // test
-        // test
-        // test
-        // test
-        // test
-        // test
-        // test
-
-        // test
-        // test
-        // test
-        // test
-        // test
-        // test
-        // test
-        // test
-        // test
-
-        // test
-        // test
-        // test
-        // test
-
-        // test
-        // test
-
-        // test
-        // test// test// test
-        // test
-        // test
-        // test
-        // test
-        // test
-
-        // test
-        // test
-        // test
     }
+
+    public void t3() {}
 }
