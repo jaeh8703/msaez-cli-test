@@ -137,4 +137,6 @@ public class Pet {
     public void testa3() {
         //tet 3
     }
+
+    public void test4() {}
 }
