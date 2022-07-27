@@ -133,4 +133,6 @@ public class Pet {
     public void testa2() {
         // test 2
     }
+
+    public void testa3() {}
 }
