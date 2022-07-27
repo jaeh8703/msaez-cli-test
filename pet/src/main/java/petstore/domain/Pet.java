@@ -68,6 +68,30 @@ public class Pet {
         //
     }
 
+    public void test2() {
+        //
+    }
+
+    public void test3() {
+        //
+    }
+
+    public void test5() {
+        //
+    }
+
+    public void test6() {
+        //
+    }
+
+    public void test7() {
+        //
+    }
+
+    public void test8() {
+        //
+    }
+
     public void test9() {
         //
     }
@@ -102,48 +126,5 @@ public class Pet {
 
     public void comb() {}
 
-    public void test2() {
-        //logic
-    }
-
-    public void test3() {
-        //test
-        //test
-        //test
-        // test3
-    }
-
-    public void test5() {}
-
-    public void test6() {
-        //test6
-    }
-
-    public void test7() {
-        //test7 !!!!
-    }
-
-    public void test8() {
-        //test8888
-    }
-
-    public void test10() {
-        //test 1010
-    }
-
-    public void test11() {
-        //test 1111 
-    }
-
-    public void test13() {}
-
-
-    public void test14() {
-        //test
-    }
-    public void test15() {}
-    
-    public void test16() {
-        //test
-    }
+    public void testa1() {}
 }

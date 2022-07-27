@@ -29,58 +29,8 @@ public class PetHateoasProcessor
         );
         model.add(
             Link
-                .of(model.getRequiredLink("self").getHref() + "/test2")
-                .withRel("test2")
-        );
-        model.add(
-            Link
-                .of(model.getRequiredLink("self").getHref() + "/test3")
-                .withRel("test3")
-        );
-        model.add(
-            Link
-                .of(model.getRequiredLink("self").getHref() + "/test5")
-                .withRel("test5")
-        );
-        model.add(
-            Link
-                .of(model.getRequiredLink("self").getHref() + "/test6")
-                .withRel("test6")
-        );
-        model.add(
-            Link
-                .of(model.getRequiredLink("self").getHref() + "/test7")
-                .withRel("test7")
-        );
-        model.add(
-            Link
-                .of(model.getRequiredLink("self").getHref() + "/test8")
-                .withRel("test8")
-        );
-        model.add(
-            Link
-                .of(model.getRequiredLink("self").getHref() + "/test10")
-                .withRel("test10")
-        );
-        model.add(
-            Link
-                .of(model.getRequiredLink("self").getHref() + "/test11")
-                .withRel("test11")
-        );
-        model.add(
-            Link
-                .of(model.getRequiredLink("self").getHref() + "/test12")
-                .withRel("test12")
-        );
-        model.add(
-            Link
-                .of(model.getRequiredLink("self").getHref() + "/test14")
-                .withRel("test14")
-        );
-        model.add(
-            Link
-                .of(model.getRequiredLink("self").getHref() + "/test15")
-                .withRel("test15")
+                .of(model.getRequiredLink("self").getHref() + "/testa1")
+                .withRel("testa1")
         );
 
         return model;
